@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cv franz</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <style>
+      @keyframes movimiento {
+        0% {
+          transform: translateX(100%);
+        }
+        50% {
+          transform: translateX(-50px);
+        }
+        100% {
+          transform: translateX(0px);
+        }
+      }
+
+      .z-index-3 {
+        animation-name: movimiento;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        text-align: center;
+      }
+
+      @keyframes movi {
+        0% {
+          transform: translateX(-100%);
+        }
+        50% {
+          transform: translateX(50px);
+        }
+        100% {
+          transform: translateX(0px);
+        }
+      }
+      .z-index-4 {
+        animation-name: movi;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <article class="all100">
+    <h1 class="z-index-1"><b>FRANZ</b></h1>
+    <h1 class="z-index-2"><b>SEA</b></h1>
+    <h2 class="z-index-3"><b>MI</b></h2>
+    <h2 class="z-index-4"><b>CURRICULUM VITAE</b></h2>
+    <section class="base">
+      <div class="imagen">
+        <img
+          src="assets/imagenes/15622706_386925584989176_7461865820513661228_n.jpg"
+          alt="foto de perfil"
+        />
+      </div>
+
+      <div class="datos">
+        <h2 id="personales">DATOS PERSONALES</h2>
+        <ul>
+          <li><b>Nombres : </b> FRANZ NILO</li>
+          <li><b>Apellidos : </b> HUANCA SEA</li>
+          <li><b>Nacionalidad : </b> BOLIVIANA</li>
+          <li>
+            <img class="icon" src="assets/iconos/icon-157358_640.webp" /><b
+              >Telefono :
+            </b>
+            77538078
+          </li>
+          <li>
+            <img class="icon" src="assets/iconos/5a4e2ef62da5ad73df7efe6e.webp" /><b
+              >Whatsapp :
+            </b>
+            77538078
+          </li>
+          <li>
+            <img
+              class="icon"
+              src="assets/iconos/kisspng-black-white-computer-icons-gmail-email-gmail-5ab6ef7c6f84e9.4405623415219383004568.webp"
+            />
+            <span style="font-weight: 800; font-size: small"
+              ><b>Email : </b></span
+            >
+            <a
+              href="https://accounts.google.com/SignOutOptions?hl=es-419&continue=https://mail.google.com/mail/&service=mail&ec=GBRAFw"
+              >seasea401@gmail.com</a
+            >
+          </li>
+          <li><b>Edad : </b>30 años</li>
+          <li>
+            <img
+              class="icon"
+              src="assets/iconos/location_icon-icons.com_50109.webp"
+            /><b>Ubicacion : </b>EL ALTO - BOLIVIA
+          </li>
+        </ul>
+      </div>
+    </section>
+    <article class="all">
+    <section class="columnas">
+      <div class="colum1">
+        <br>
+        <h3>HABILIDADES</h3>
+
+        
+        <ul>
+          <li><b>Analisis de Problemas</b></li>
+          <li><b>Trabajo en equipo</b></li>
+          <li><b>Imvestigacion</b></li>
+          <li><b>Liderazgo</b></li>
+          <li><b>Estrategias de venta</b></li>
+        </ul>
+        <br>
+        <h3>IDIOMAS</h3>
+      
+        <ul>
+          <li><b>Español latino</b></li>
+          <li><b>Ingles basico</b></li>
+          <li><b>Aymara</b></li>
+        </ul>
+        <br>
+        <article class="futuros">
+        <h3>PROYECTOS FUTUROS</h3>
+       
+        <ul>
+          <li>Llegar a ser un <b>"Front-end"</b> 
+            eficas  y confiable.</li>
+            <br>
+          <li>Poder integrarme y estar a la altura de un programador <BR>
+          </BR><b><i>"BACK-END"</i></b></li>
+          <br>
+          <li>Quiero y tengo que lograr ser un <b> "FULL-STACK"</b> Es mi sueño y tengo que lograrlo.</li>
+          <br>
+         </ul>
+        </article>
+         <br>
+        <h3>EMVIAME UN MENSAJE</h3>
+        <!-- https://formsubmit.co/    sin esta etiqueta no se emvia  al  correo deseado solo te redirecciona a tu html -->
+        <form
+          class="formulario"
+          action="https://formsubmit.co/seasea401@gmail.com"
+          method="POST"
+        >
+          <input
+            type="text"
+            name="nombre"
+            placeholder="Escribe tu nombre completo"
+            required
+          />
+
+          <!-- -------------pattern--- con esta etiqueta podriamos darle un patron para que no s salga del rango de caracteristicas y solo acepten caracteres ya definidos -->
+          <br />
+          <input
+            type="email"
+            name="correo"
+            placeholder="Escriba su Correo electronico"
+            required
+          />
+          <br />
+          <textarea
+            name="comentario"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Escriba un comentario"
+            required
+          ></textarea>
+          <br />
+          <input type="submit" />
+          <input type="reset" />
+        </form>
+      </div>
+      <div class="colum2">
+        <h3>RESUMEN PROFECIONAL</h3>
+        <p>
+          Pensamiento creativo e innovador para desarrollar soluciones novedosas
+          a retos frecuentes dentro la industria, utilizar procesos mecanicos,
+          electronicos e informaticos para diseñar maquinas. Integracion de
+          diferentes tecnologias y ramas de conocimientos. Manejo de diceño y
+          desarrollo de productos, Dominio de marcos de trabajo de gestion de
+          proyectos, comprencion y aplicacion de principios y tecnologias de
+          inteligencia artificial. Creacion de maquinas inteligentes que llevo
+          adelantea travez de proyectos, para ello suelo formar parte de un
+          equipo donde suelo ser lider o un colaborador de equipo. Analizar
+          circuitos, imvestigar e identificar requisitos, supervisar los
+          procesos de fabricacion. A disspocicion de lo que se me
+          <b>ENCOMENDE</b> Y dar todo al 1000 x 1000000
+        </p>
+        <article class="sub2">
+          <h3 class="sub21">EXPERIENCIA LABORAL</h3>
+          <ul>
+            <li>
+              <b>TORNERIA STELL</b>
+              <blockquote>
+                Cargo : Encargado de <i> <b>TORNERIA CNC</b></i>
+              </blockquote>
+            </li>
+            <li>
+              <b>MANTENIMIENTO DE MAQUINAS</b>
+              <blockquote>
+                Cargo : Encargado de <i><b>INSPECCION TECNICA</b></i>
+              </blockquote>
+            </li>
+            <li>
+              <b>TOENERIA STELL</b>
+              <blockquote>
+                Cargo : soldador <i><b> 3G</b></i>
+              </blockquote>
+            </li>
+            <li>
+              <b>DISEÑO Y CONTRUCCION LA PAZ LTDA </b>
+              <blockquote>
+                Cargo : <i><b> DISEÑO EN AUTOCAD</b></i>
+              </blockquote>
+            </li>
+            <li>
+              <b>FUNDICIONES LUNA </b>
+              <blockquote>
+                Cargo : <i><b>ENCARGADO DE PERSONAL DE FUNDICION</b></i>
+              </blockquote>
+            </li>
+            <li>
+              <b>ESTRUCTURAS METALICAS (soldadura)</b>
+              <blockquote>
+                Cargo : <i><b>ENCARGADO DE SOLDADORES INSPECCION</b></i>
+              </blockquote>
+            </li>
+          </ul>
+          <h3 class="sub21">FORMACION ACADEMICA</h3>
+          <ul>
+            <li>
+              <b>MECANICA INDUSTRIAL ( MECATRONICA )</b>
+              <blockquote>
+                EISPDM (Escuela Industrial Superior Pedro Domingo Murillo)
+              </blockquote>
+            </li>
+            <li>
+              <b>INSTITUTO SEI (Microcontroladores PLC)</b>
+              <blockquote>
+                PROGRAMACION DE <b><i>Microcontroladores(PLC)</i></b>
+              </blockquote>
+            </li>
+            <li>
+              <b>INTITUTO PERU WELDERS</b>
+              <blockquote>
+                Soldaduras <b><i>ESPECIALES ( INOX, FUNDIDO, POSISIONES)</i></b>
+              </blockquote>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+    <section class="preguntas">
+      <h3>POR QUE ME INTERESO ESTUDIAR <b>PROGRAMACION???</b></h3>
+      <p>
+        En lo personal me empezo a interesar cuando vi que se podia programar un
+        microcontrolador con el cual se podian hacer maravillas lo cual me dejo
+        con muchas ganas de aprender mas, posteriormente lo pude apreciar mas
+        cuando vi programas de <b> "PLC" </b> para automatizar maquinas y mas
+        aun sabiendo que podiamos implementar lo que es
+        <b> "I.A." Inteligencia Artificial</b>.
+      </p>
+      <p>
+        Posteriormente quisimos crear una maquina agricola inteligente en
+        nuestro grupo de estudio pero se nos iso muy pero muy complicado
+        realizar el trabajo por que nadie del grupo sabia programar fue entonces
+        que nos intereso mucho estudiar lo que es programacion y a la final un
+        reto por cumplir.
+      </p>
+    </section>
+    <section class="gustos">
+      <h3>LO QUE ME GUSTA HACER</h3>
+      <article class="gustos2">
+        <div>
+          <img
+            src="assets/imagenes/male-worker-at-factory-1611941279.webp"
+            alt="Lo que me gusta hacer"
+          />
+        </div>
+        <div class="gustos3">
+          <p>
+            Lo que me gusto hacer desde que conosi mi carrera por completo, fue
+            al trabajar creando maquinas desde cero desde planchas en hojas ,
+            barras de fierro hasta lograr una maquina nueva con requerimientos
+            tecnicos y productivas para la sociedad, ver la alegria de las
+            personas al ver una maquina hechas para su medida y requerimientos
+            de trabajo es lo mejor y es lo que me gusto mucho y me dio muchas
+            ganas para seguir aprendiendo mas, es por eso que optamos por
+            implementar lo que es la <b>I.A.</b> en mi grupo de trabajo.
+          </p>
+        </div>
+      </article>
+    </section>
+  </article>
+</article>
+  </body>
+</html>

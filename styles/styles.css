@@ -1,0 +1,167 @@
+body {
+  /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+  padding-top: 30px;
+  margin: 0;
+  height: 100vh;
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+  background: linear-gradient(#fcfbfb, #a08c8c);
+}
+
+.z-index-1,
+.z-index-2,
+.z-index-3,
+.z-index-4 {
+  position: relative;
+  text-align: center;
+}
+.z-index-1 {
+  font-size: 90px;
+  margin: -30px;
+  z-index: 0;
+}
+.z-index-2 {
+  font-size: 90px;
+  margin: -30px;
+  z-index: 0;
+}
+.z-index-3 {
+  font-size: 25px;
+  background-color: #fcfbfb;
+  top: -130px;
+  z-index: 3;
+  opacity: 0.96;
+
+  /*filter: blur(1px);*/
+}
+.z-index-4 {
+  font-size: 25px;
+  background-color: #fcfbfb;
+  top: -105px;
+  z-index: 3;
+  opacity: 0.9;
+}
+.base {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 300px;
+
+  /*gap : 30px;*/
+  padding: auto;
+  padding-bottom: 50px;
+  padding-top: 0;
+  /*padding-left: 30%;
+  padding-right: 30%;*/
+}
+
+img {
+  height: 303px;
+  width: 300px;
+}
+.imagen img {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.datos {
+  /*height: 280px;
+  width: 300px;*/
+
+  background-color: rgb(107, 105, 105);
+  opacity: 0.9;
+  color: rgb(0, 0, 0);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.datos ul {
+  height: 100%;
+}
+ul li {
+  padding-top: 8px;
+}
+#personales {
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+}
+.all {
+  height: 100%;
+  width: 100%;
+
+  padding-top: 0%;
+  padding-left: 0px;
+  padding-right: 90px;
+}
+.columnas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+  background-color: #a08c8c;
+}
+.columnas h3 {
+  font-size: 24px;
+}
+.colum1 {
+  padding-left: 30%;
+  display: block;
+}
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+  border-color: black;
+  border-width: 2px;
+  background-color: white;
+  font-size: 15px;
+  display: black;
+  width: 250px;
+}
+.futuros {
+  width: 300px;
+}
+.colum2 {
+  padding-right: 20%;
+  display: block;
+}
+
+.preguntas {
+  background-color: #a08c8c;
+  padding-top: 60px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+.preguntas h3 {
+  font-size: 30px;
+}
+.gustos {
+  background-color: #a08c8c;
+  padding: 90px;
+  padding-top: 20px;
+}
+.gustos h3 {
+  font-size: 30px;
+}
+.gustos div img {
+  border: solid 6px;
+  border-top-left-radius: 36px;
+  border-bottom-right-radius: 36px;
+}
+.gustos2 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.gustos3 {
+  padding-left: 30px;
+  font-size: 21px;
+}
